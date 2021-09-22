@@ -4,7 +4,7 @@ Cryptocurrency is a "rising star" in financial industry as a brain-new virtual c
 
 The project conducts exploratory data analysis on the first and most popular cryptocurrency, Bitcoin (BTC) along with two other currencies, Ethereum (ETH) and Ripple (XRP) to check if our observations are generalizable.
 
-The cryptocurrency prices in USD are acquired from the R package "quantmod" with Tiingo source. Sample time frame is from Jan 1, 2017 to Feb 11, 2021.
+The cryptocurrency prices in USD are acquired from the R package [“quantmod”](https://cran.r-project.org/web/packages/quantmod/quantmod.pdf) with Tiingo source. Sample time frame is from Jan 1, 2017 to Feb 11, 2021.
 The log returns are calculated from the closing prices at the end of each trading date.
 
 Here, the R code accounts for the EDA part:
